@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tara Fashion | Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="contact-header">
+    <h1>TARA FASHION</h1>
+    <p>Elegance in Every Outfit</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="contact.html">Contact Us</a>
+</nav>
+
+<main>
+
+    <section class="contact-hero">
+        <div class="contact-hero-content">
+            <span class="small-title">WE WOULD LOVE TO HEAR FROM YOU</span>
+            <h2>Let's Start a<br>Conversation</h2>
+            <p>
+                Have a question about our collection?
+                Need help choosing your perfect outfit?
+                We are always happy to assist you.
+            </p>
+        </div>
+
+        <div class="contact-hero-image">
+            <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=900"
+                 alt="Tara Fashion boutique">
+        </div>
+    </section>
+
+    <section class="contact-section">
+
+        <div class="section-heading">
+            <span>GET IN TOUCH</span>
+            <h2>We Are Here For You</h2>
+            <p>Feel free to reach out to us anytime.</p>
+        </div>
+
+        <div class="contact-cards">
+
+            <div class="contact-card">
+                <div class="contact-icon">✉</div>
+                <h3>Email Us</h3>
+                <p>For product inquiries and assistance</p>
+                <a href="mailto:tarafashion@gmail.com">tarafashion@gmail.com</a>
+            </div>
+
+            <div class="contact-card">
+                <div class="contact-icon">☎</div>
+                <h3>Call Us</h3>
+                <p>We are happy to help you</p>
+                <a href="tel:017123456789">017123456789</a>
+            </div>
+
+            <div class="contact-card">
+                <div class="contact-icon">⌖</div>
+                <h3>Visit Us</h3>
+                <p>Our fashion destination</p>
+                <span>Dhaka, Bangladesh</span>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="message-section">
+
+        <div class="message-image">
+            <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=900"
+                 alt="Fashion collection">
+        </div>
+
+        <div class="message-form">
+            <span class="small-title">CONTACT TARA FASHION</span>
+            <h2>Send Us a Message</h2>
+            <p>
+                Have something on your mind?
+                Leave us a message and we will be happy to help.
+            </p>
+
+            <form onsubmit="sendMessage(event)">
+
+                <label for="name">Your Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" placeholder="What is this about?" required>
+
+                <label for="message">Your Message</label>
+                <textarea id="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+                <button type="submit">SEND MESSAGE</button>
+
+            </form>
+        </div>
+
+    </section>
+
+</main>
+
+<footer class="contact-footer">
+    <h2>TARA FASHION</h2>
+    <p>Elegance, Confidence & Timeless Style.</p>
+    <p>© 2026 Tara Fashion. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
